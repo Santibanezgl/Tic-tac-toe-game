@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIC TAC TOE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+  <body>
+    <header class="container-fluid entorno row mb-3">
+      <h1 class="col-12 text-center mt-4 font d-block">Play TIC TAC TOE with friends</h1>
+    </header>
+    <main class="row d-flex justify-content-center">
+        <div class="row container contenedorprincipal">
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante1"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante2"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante3"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante4"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante5"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante6"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante7"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante8"></div>
+<div class="tablero col-4 cuadrante boton-animado" id="cuadrante9"></div>
+</div>
+<div class="container row d-flex nombres" id="listanombres">
+    <div class="mt-2 col-6" id="player1">
+        <h2>Player 1: <input class="d-flex" type="text" placeholder="Insert Player 1 name" id="nombreplayer1"><button class="btn third" id="aceptarplayer1">Accept</button></h2>
+    </div>
+    <div class="mt-2 col-6" id="player2">
+        <h2>Player 2: <input class="d-flex" type="text" placeholder="Insert Player 2 name" id="nombreplayer2"><button class="btn third" id="aceptarplayer2">Accept</button></h2>
+    </div>
+</div>
+    </main>
+    <footer class="mt-5">
+       <div class="d-flex justify-content-center">
+      <div class="mx-3">
+          <a href="https://github.com/Santibanezgl" target="_blank" > <img id="github" src="./assets/images/github.png" alt="imagen github"></a>
+      </div>
+      <div>
+        <a href="" target="_blank" > <img id="linkedin" src="./assets/images/linkedin.png" alt="imagen linkedin"></a>
+    </div>
+  </div>
+    <div>
+      <h2 class="font text-center">Developed by Santiago Gabriel Ibañez</h2>
+    </div>
+    </footer>
+    <script src="scrips/scrips.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

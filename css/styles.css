@@ -1,0 +1,150 @@
+body{
+    height: 140vh;
+    width: 100vw;
+    caret-color: transparent;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: #1d1b19;
+}
+
+main{
+    width: 100vw;
+    height: 110vh;
+}
+
+footer{
+    background-color: red;
+    width: 100vw;
+    height: 20vh;
+}
+.entorno{
+    background-color: red;
+
+}
+
+.tablero{
+    border:solid;
+    padding: 80px;
+    box-sizing:80px;
+}
+
+.contenedorprincipal{
+    width: 50vw;
+    height: 70vh;
+}
+
+.nombres{
+    width: 100vw;
+    height: 5vh;
+}
+
+.equis{
+    background-image: url(../assets/images/cruz.png);
+background-size: cover;
+}
+
+.circulo{
+background-image: url(../assets/images/circulo.png);
+background-size: cover;
+}
+
+
+#player1{
+display: "block";
+}
+
+#player2{
+display: "block";
+}
+
+#turnero{
+    display:"";
+}
+
+#divnuevo{
+    display: "";
+}
+
+.fifth {
+    border-color: #8e44ad;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+ 
+  .boton-animado {
+    padding: 5px 10px;
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .boton-animado:hover {
+    transform: translateY(-3px);
+  }
+
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 5px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #000000;
+    outline: 0;
+  }
+  
+  .third {
+    border-color: #db4d34;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #db6934 inset, 0 0 0 0 #db9334;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #db7f34 inset, 0 0 10px 4px #db8534;
+  }
+  
+
+  .font {
+    color:rgb(195, 207, 20);
+  }
+
+  #github{
+    width: 60px;
+    height: 60px;
+  }
+
+  #linkedin{
+    width: 60px;
+    height: 60px;
+  }
